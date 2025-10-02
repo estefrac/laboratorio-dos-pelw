@@ -6,11 +6,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background: linear-gradient(45deg, rgb(6, 26, 0), rgb(0, 0, 0));
     display: flex;
     justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .contenedor {
@@ -23,7 +25,7 @@ body {
     text-align: center;
 }
 
-/*header*/
+/* header */
 header h1 {
     color: white;
     margin-top: 20px;
@@ -61,21 +63,17 @@ nav ul li a:visited {
 
 /* main */
 main {
-    margin-top: 20px;
+    flex: 1;
     color: white;
-}
-
-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
 }
 
 main p {
     margin: 10px 0px 30px 0px;
-    padding: 0px 60px 0px 60px;
+    padding: 0px 80px 0px 80px;
     line-height: 25px;
 }
 
@@ -96,8 +94,149 @@ main .uncoma:hover {
     transform: scale(1.05);
 }
 
+
+/* formulario */
+.formulario {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario > div {
+    width: 100%;
+    text-align: left;
+}
+
+.formulario h2 {
+    margin: 30px 0 25px 0;
+    color: rgb(115, 255, 0);
+    text-align: center;
+}
+
+.formulario form {
+    width: 100%;
+}
+
+.formulario form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.formulario label {
+    font-weight: 500;
+    color: rgb(115, 255, 0);
+    font-size: 14px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="number"] {
+    padding: 12px;
+    border: 1px solid rgb(115, 255, 0);
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.formulario input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(115, 255, 0, 0.5);
+    border-color: rgb(115, 255, 0);
+}
+
+.formulario input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.metodo-contacto,
+.suscripcion-tipo {
+    margin-bottom: 20px;
+}
+
+.metodo-contacto > label,
+.suscripcion-tipo > label {
+    font-weight: 500;
+    color: rgb(115, 255, 0);
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.radio-options,
+.checkbox-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.radio-options label,
+.checkbox-options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white !important;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: normal !important;
+    margin-bottom: 0 !important;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: rgb(115, 255, 0);
+    cursor: pointer;
+}
+
+.formulario button {
+    width: 120px;
+    padding: 12px 24px;
+    background: rgb(115, 255, 0);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.formulario button:hover {
+    background: rgb(95, 215, 0);
+}
+.formulario button:active {
+    box-shadow: 0 2px 6px rgba(115, 255, 0, 0.3);
+}
+
+/* Tabla datos Form */
+table {
+    width: 500px;
+    margin: 30px 0 50px 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+table th {
+    color: rgb(95, 215, 0);
+    font-weight: 600;
+}
+
 .yo {
     width: 250px;
+    margin-top: 30px;
 }
 
 
