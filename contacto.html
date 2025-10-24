@@ -3,12 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
     <title>Esteban Fraccascia | Contacto</title>
   </head>
@@ -16,14 +10,17 @@
     <div class="contenedor">
       <header>
         <nav>
+          <img src="img/logo.svg" alt="logo" class="logo" />
           <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="acercade.html">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="active"><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
-        <h1>Esteban Fraccascia</h1>
-        <p>PÁGINA PERSONAL</p>
+        <div class="titulo">
+          <h1>ESTEBAN FRACCASCIA</h1>
+          <p>LABORATORIO PELW</p>
+        </div>
       </header>
       <main>
         <section class="formulario">
@@ -48,7 +45,6 @@
                   id="apellido"
                   name="apellido"
                   maxlength="20"
-                  required
                   placeholder="Ingresa tu apellido"
                 />
               </div>
@@ -195,7 +191,7 @@
             </form>
           </div>
         </section>
-        <section>
+        <section class="tabla-datos">
           <table>
             <thead>
               <tr>
@@ -247,6 +243,7 @@
             </tbody>
           </table>
         </section>
+        <a href="#top" class="goUp">⮙</a>
       </main>
       <footer>
         <p>© 2023 Esteban Fraccascia</p>
