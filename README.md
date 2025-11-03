@@ -1,33 +1,23 @@
-# Laboratorio 4 – Programación Estática y Laboratorio Web
-
-**Formato avanzado:**  
-Para la entrega, colocar la URL de su página en Github una vez que esté finalizada.
+# Laboratorio 5 – Programación Estática y Laboratorio Web
 
 ## Modificaciones requeridas
 
-### 1. Formato general
-- Modificar las páginas creadas hasta el momento para:
-  - Incluir **formato correcto para tablas y formularios** que permita una visualización clara y ordenada.
-  - Incluir el uso de **al menos una fuente web**.
+1. Modificar las páginas creadas hasta el momento añadiendo:
 
-### 2. Animación del título principal
-- Animar el título principal de la página.
-- Incluir a la **derecha el logo del CURZA**, que deberá:
-  - Dar un **giro completo sobre el eje vertical**.
-  - Terminar en la posición correcta al finalizar la animación.
+   - Crear un archivo `script.js`.
+   - Vincular el archivo al HTML del formulario (página de contacto).
+   - Añadir interactividad: Todo lo cargado en el formulario debe reflejarse en la tabla inferior al terminar de rellenar cada campo (sin necesidad de botones).
+   - En la página de "Acerca de" hacer un botón de "Leer más". Deberá mostrarse el currículum de manera abreviada y al hacer clic en el botón de leer más, deberá revelarse el CV completo (rellenar con Lorem Ipsum si es necesario).
 
-### 3. Posicionamiento
-- En todas las páginas se debe mostrar un **encabezado fijo en la parte superior**, visible aunque el usuario haga scroll.
-- Modificar el texto del “Acerca de”:
-  - La **primera línea debe permanecer fija** (`sticky`).
-  - El artículo debe tener un **alto máximo de 300px**.
-  - Si el contenido excede el alto máximo, deberá aparecer **barra de desplazamiento**.
-
-### 4. Flecha de regreso al inicio
-- En cada página se debe añadir una **flecha apuntando hacia arriba dentro de un círculo**, ubicada al **final de la página hacia la derecha**.
-- La flecha debe permitir **volver al inicio** al hacer clic.
+2. Mantener el resto de los requisitos previos:
+   - Formato correcto para tablas y formularios.
+   - Uso de al menos una fuente web.
+   - Animación del título principal.
+   - Logo del CURZA animado.
+   - Encabezado fijo en la parte superior.
+   - Flecha de regreso al inicio.
 
 ---
 
-**Entrega:**  
+**Entrega:**
 Subir la página finalizada a Github y colocar la **URL** en el espacio correspondiente.
