@@ -1,0 +1,15 @@
+
+// Leer más
+
+const textoCorto = document.getElementById('texto_corto');
+const leerMas = document.getElementById('leer_mas');
+const textoCompleto = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores repellat sint quae eaque natus eos quidem velit laudantium facilis veniam ipsum, expedita corrupti hic. Fugiat enim ea eligendi illum.
+        Est cum, distinctio commodi quibusdam, doloremque consequatur inventore consequuntur dolores ut exercitationem quaerat possimus! Quasi illum aliquam, sint corrupti libero voluptates, soluta voluptas perferendis nihil impedit ab molestiae quis iste.
+        Soluta quaerat nobis quisquam asperiores amet adipisci illum dicta eius doloremque placeat tempore, dolorum maiores corrupti eligendi, dolor sunt consequuntur obcaecati provident id, laboriosam cum dolores? Unde provident voluptas laborum?
+        Fugit eligendi expedita mollitia consequatur molestias voluptate rerum maxime delectus provident odio numquam sunt nemo nisi, nam quaerat perspiciatis, repellat soluta velit a optio illum. Dolor perspiciatis et adipisci obcaecati?
+        Ipsam est ducimus dolore, animi nihil hic quidem enim eveniet distinctio mollitia doloribus dolorem optio accusamus deleniti iusto veritatis ullam. Fugiat blanditiis amet suscipit maxime? Nobis nihil nostrum impedit et.`;
+
+leerMas.addEventListener("click", ()=> {
+    textoCorto.textContent = textoCompleto
+    leerMas.style.display = 'none'
+})   

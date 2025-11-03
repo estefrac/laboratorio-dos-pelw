@@ -32,6 +32,28 @@ body {
     box-shadow: 0 0 20px rgba(115, 255, 0, 0.05);
 }
 
+.button {
+    width: 120px;
+    padding: 12px 24px;
+    background: rgb(115, 255, 0);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: rgb(95, 215, 0);
+}
+
+.button:active {
+    box-shadow: 0 2px 6px rgba(115, 255, 0, 0.3);
+}
+
 /* header */
 
 .titulo {
@@ -259,26 +281,6 @@ main article p {
     cursor: pointer;
 }
 
-.formulario button {
-    width: 120px;
-    padding: 12px 24px;
-    background: rgb(115, 255, 0);
-    color: black;
-    border: none;
-    border-radius: 6px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.formulario button:hover {
-    background: rgb(95, 215, 0);
-}
-.formulario button:active {
-    box-shadow: 0 2px 6px rgba(115, 255, 0, 0.3);
-}
-
 /* Tabla datos Form */
 table {
     width: 500px;
@@ -339,4 +341,44 @@ footer a {
     margin-bottom: 20px;
     margin-top: -50px;
     text-decoration: none;
+}
+
+.sticky {
+    position: sticky;
+    top: 180px;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 10px;
+    z-index: 999;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.acercade {
+    max-height: 500px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+/* barra de scroll acerca de*/
+.acercade::-webkit-scrollbar {
+    width: 8px;
+}
+
+.acercade::-webkit-scrollbar-track {
+    background: #011f00;
+}
+
+.acercade::-webkit-scrollbar-thumb {
+    background: rgb(62, 133, 5);
+}
+
+.acercade::-webkit-scrollbar-thumb:hover {
+    background: rgb(115, 255, 0);
+}
+
+.curriculum {
+    margin-bottom: 100px;
+    p {
+        margin-bottom: 0;
+    }
 }
