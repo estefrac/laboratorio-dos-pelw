@@ -75,7 +75,6 @@ header h1 {
     font-family: Doto, sans-serif;
     font-size: 40px;
     color: white;
-    margin-top: 100px;
     font-weight:500;
 }
 
@@ -152,10 +151,9 @@ main h2 {
     color: rgb(115, 255, 0);
     margin: 30px 0 25px 0;
 }
-main .uncoma {
-    width: 350px;
+.contenedor header .hero .uncoma {
+    width: 80px;
     transition: all 0.3s ease-in-out;
-    margin-bottom: 30px;
     animation: moveCurza 5s;
 }
 
@@ -381,4 +379,19 @@ footer a {
     p {
         margin-bottom: 0;
     }
+}
+
+.hero {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.portada {
+    width: 450px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
